@@ -29,13 +29,7 @@ I'm world manager bot maintained by [this awesome person](https://t.me/HopSins)!
 
 Want to add me to your group? [Click here!](t.me/JohnnySins_TheBot?startgroup=true)
 
-Click /Help button to find out more about how to use me to my full potential.
-
-Special Thanks to @Prakaska sar
-
-My Souce Available Here [Source](https://github.com/Hopsins/HarukaAya)
-
-Earth. That is my price.!"""
+Click /Help button to find out more about how to use me to my full potential."""
 
 
 IMPORTED = {}

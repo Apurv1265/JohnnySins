@@ -29,7 +29,7 @@ I'm world manager bot maintained by [this awesome person](https://t.me/HopSins)!
 
 Want to add me to your group? [Click here!](t.me/JohnnySins_TheBot?startgroup=true)
 
-Click /Help button to find out more about how to use me to my full potential."""
+Click (Help) button to find out more about how to use me to my full potential."""
 
 
 IMPORTED = {}

@@ -126,7 +126,7 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             send_start(bot, update)
     else:
-        update.effective_message.reply_text("The end is near. 😈")
+        update.effective_message.reply_text("I'm Ready To FUCK. 😈")
 
 
 def send_start(bot, update):
@@ -175,7 +175,7 @@ def control_panel(bot, update):
 
         LOGGER.info(query.data)
     else:
-        M_match = "ThaNos is the best bot" #LMAO, don't uncomment
+        M_match = "Johnny Sins is the best bot" #LMAO, don't uncomment
 
     if M_match:
         text = "*Control panel* 🛠"

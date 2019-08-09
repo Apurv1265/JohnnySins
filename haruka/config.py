@@ -11,8 +11,8 @@ class Config(object):
 
     # REQUIRED
     API_KEY = ""
-    OWNER_ID = "656268508"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "shivamkchoudhary"
+    OWNER_ID = "834556273"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "HopSins"
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = ''  # needed for any database modules
@@ -20,12 +20,12 @@ class Config(object):
     LOAD = []
     NO_LOAD = ['translation', 'sed']
     WEBHOOK = ANYTHING
-    URL = "https://thanosbots1.herokuapp.com/"
+    URL = "https://johnnysinsbot.herokuapp.com/"
 
     # OPTIONAL
-    SUDO_USERS = [810714359 649156353 686956429 768326378 759400881  734772540 594813047 594483221 859040871]  # List of id's (not usernames) for users which have sudo access to the bot.
-    SUPPORT_USERS = [810714359 649156353 686956429 768326378 759400881  734772540 594813047 594483221 859040871]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = [810714359 649156353 686956429 768326378 759400881  734772540 594813047 594483221 859040871]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     MAPS_API = ''
     CERT_PATH = None
     PORT = 5000

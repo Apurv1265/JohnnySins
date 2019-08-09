@@ -9,7 +9,7 @@ from haruka.modules.sql import SESSION, BASE
 
 
 class Notes(BASE):
-    __tablename__ = "Porn List"
+    __tablename__ = "notes"
     chat_id = Column(String(14), primary_key=True)
     name = Column(UnicodeText, primary_key=True)
     value = Column(UnicodeText, nullable=False)

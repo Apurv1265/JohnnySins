@@ -44,7 +44,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
             raise
 
     if user_id == bot.id:
-        message.reply_text(tld(chat.id, "You’re strong. But I could snap my fingers, and you’d all cease to exist. 😒"))
+        message.reply_text(tld(chat.id, "You’re strong. When i put my penis in your anus, its Sounds like miracle. 😒"))
         return ""
 
     if is_user_ban_protected(chat, user_id, member):
@@ -229,7 +229,7 @@ def kick(bot: Bot, update: Update, args: List[str]) -> str:
 def kickme(bot: Bot, update: Update):
     user_id = update.effective_message.from_user.id
     if user_id == OWNER_ID:
-        update.effective_message.reply_text("You’re strong. But I could snap my fingers, and you’d all cease to exist. 😠")
+        update.effective_message.reply_text("You’re strong. When i put my penis in your anus, its Sounds like miracle. 😠")
         return
     elif is_user_admin(update.effective_chat, user_id):
         update.effective_message.reply_text("Why would I kick an Admin? That sounds like a pretty dumb idea.")
